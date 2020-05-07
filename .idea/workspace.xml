@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0dca6f38-b43b-4446-b89a-15575060a98e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/java/cn/yun/cloud/CacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/src/test/java/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/target/classes/cn/yun/cloud/CacheApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/target/test-classes/CacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/yun/cloud/config/HttpClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/yun/cloud/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/yun/cloud/entity/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/cn/yun/cloud/http/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/yun/cloud/config/HttpClientConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/yun/cloud/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/yun/cloud/entity/UserDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/classes/cn/yun/cloud/http/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/cn/yun/cloud/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/cn/yun/cloud/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/order-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/cn/yun/cloud/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/cn/yun/cloud/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/classes/cn/yun/cloud/ProductApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/classes/cn/yun/cloud/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/target/product-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/client/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/cn/yun/cloud/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/test/java/UserApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/client/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/cn/yun/cloud/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/surefire-reports/TEST-UserApplicationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/surefire-reports/UserApplicationTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/test-classes/UserApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/user-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bWYiETSlC3XPTXl9lmmKYKb5fK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="MyBatisLogPluginindexNum" value="11967" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/luke/lh-jgsb/lh-jgsb" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mission\cloud-test\order\src\main\resources" />
+      <recent name="D:\mission\cloud-test\product\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.015055467" />
+  </component>
+  <component name="RunManager" selected="JUnit.CacheTest.test2">
+    <configuration name="CacheTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CacheTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cache" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CacheTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplicationTest.httpRequestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserApplicationTest" />
+      <option name="METHOD_NAME" value="httpRequestTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplicationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserApplicationTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yun.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yun.cloud.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yun.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yun.cloud.ProductApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8012" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yun.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yun.cloud.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserApplicationTest.httpRequestTest" />
+      <item itemvalue="JUnit.UserApplicationTest.test1" />
+      <item itemvalue="Spring Boot.ProductApplication2" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="JUnit.CacheTest.test" />
+      <item itemvalue="JUnit.CacheTest.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CacheTest.test2" />
+        <item itemvalue="JUnit.CacheTest.test" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="JUnit.UserApplicationTest.httpRequestTest" />
+        <item itemvalue="JUnit.UserApplicationTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dca6f38-b43b-4446-b89a-15575060a98e" name="Default Changelist" comment="" />
+      <created>1588562306527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588562306527</updated>
+      <workItem from="1588562307813" duration="12904000" />
+      <workItem from="1588595248871" duration="15955000" />
+      <workItem from="1588749443711" duration="11407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar!/com/zaxxer/hikari/util/DriverDataSource.class</url>
+          <line>48</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>driverProperties</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>null</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userDO</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>

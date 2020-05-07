@@ -1,0 +1,13 @@
+server:
+  port: 8002
+  tomcat:
+    max-threads: 10 # maximum 200
+
+
+spring:
+  application:
+    name: product-service
+  profiles:
+    active: dev
+
+

@@ -1,0 +1,11 @@
+server:
+  port: 8001
+#  tomcat:
+#    max-threads: 10 # maximum 200
+
+spring:
+  application:
+    name: user-service
+      # 配置datasource pool, redis, mybatis-plus, jdbc, log.
+  profiles:
+    active: dev

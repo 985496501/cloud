@@ -1,0 +1,6 @@
+cn\yun\cloud\controller\UserController.class
+cn\yun\cloud\service\UserService.class
+cn\yun\cloud\UserApplication.class
+cn\yun\cloud\dao\UserMapper.class
+cn\yun\cloud\service\impl\UserServiceImpl.class
+cn\yun\cloud\client\ProductService.class

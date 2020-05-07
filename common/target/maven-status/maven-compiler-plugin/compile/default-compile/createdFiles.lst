@@ -1,0 +1,4 @@
+cn\yun\cloud\config\SwaggerConfig.class
+cn\yun\cloud\entity\UserDO.class
+cn\yun\cloud\http\Result.class
+cn\yun\cloud\config\HttpClientConfig.class

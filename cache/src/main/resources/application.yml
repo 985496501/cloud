@@ -1,0 +1,15 @@
+spring:
+  # redis 配置
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 0
+    timeout: 6000ms
+    lettuce:
+      pool:
+        # 都是默认值
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
