@@ -1,0 +1,84 @@
+# spring管理的配置
+#spring:
+#  # cloud 注册和配置中心
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+
+  # 这个模块不需要服务名称
+#  application:
+#    name: common-service
+
+  # database config
+  # https://blog.csdn.net/lizhiqiang1217/article/details/90573759
+  # https://blog.csdn.net/qq_32953079/article/details/81502237?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3
+#  datasource:
+#    type: com.zaxxer.hikari.HikariDataSource
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/cloud?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=true
+#    username: root
+#    password:
+#    # Hikari 连接池配置
+#    hikari:
+#      minimum-idle: 5
+#      # 空闲连接存活最大时间，默认600000（10分钟）
+#      idle-timeout: 180000
+#      # 连接池最大连接数，默认是10
+#      maximum-pool-size: 10
+#      # 此属性控制从池返回的连接的默认自动提交行为,默认值：true
+#      auto-commit: true
+#      # 连接池名称
+#      pool-name: MyHikariCP
+#      # 此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+#      max-lifetime: 1800000
+#      # 数据库连接超时时间,默认30秒，即30000
+#      connection-timeout: 30000
+#      connection-test-query: SELECT 1
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # redis-config todo: https://my.oschina.net/anxiaole/blog/3043463
+    # 应该单独开启一个缓存服务，提供缓存的一整套解决方案。
+    # 将一些配置数据一些不变化的数据读到缓存供前端调用。如果系统内部需要到了缓存的数据，也去redis里面读。
+    # 缓存服务应该解决 缓存数据和数据库持久化数据的一致性问题。
+#  redis:
+#    database: 0
+#    host: localhost
+#    port: 6379
+#    password:
+#    timeout: 3000ms
+
+
+# mybatis-plus的相关配置
+#mybatis-plus:
+#  mapper-locations: classpath*:/mapper/**/*.xml # xml的存放位置
+#  type-aliases-package: cn.yun.cloud.*.entity # 实体包的路径,在xml中直接使用类型
+
+#  # 原生配置
+#  configuration:
+#    map-underscore-to-camel-case: true # 默认小驼峰映射
+#    cache-enabled: false # 默认不适用二级缓存
+#    call-setters-on-nulls: true
+#    jdbc-type-for-null: 'null'
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 打印sql 控制台有些废话
+#  # 全局配置
+#  global-config:
+#    # 数据库配置
+#    db-config:
+#      id-type: id_worker # 主键生成策略
+#      table-underline: true # 数据库表名下划线形式
+#      logic-delete-field: deleted # 逻辑删除字段
+#      logic-delete-value: 1 # 删除
+#      logic-not-delete-value: 0 # 默认不删除
+#      # insert-strategy:
+#      # update-strategy:
+#    banner: false # 不要打印logo
+
+# multiple datasource config: https://mp.baomidou.com/guide/dynamic-datasource.html
+# 使用spring: dynamic-datasource-spring-boot-starter 是一个基于springboot的快速集成多数据源的启动器。
+# 下面是多数据源打印sql
+# https://blog.csdn.net/dfBeautifulLive/article/details/100700365?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1
+
+#product-service: # 调用的提供者的名称, 自定义负载均衡的策略
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

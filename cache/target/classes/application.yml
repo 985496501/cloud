@@ -1,7 +1,16 @@
+
+
 spring:
+  profiles:
+    active: dev
+  # 定义应用的一些参数
+  application:
+    name: cache-service
+
+
   # redis 配置
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     password:
     database: 0
@@ -13,3 +22,5 @@ spring:
         max-idle: 8
         max-wait: -1ms
         min-idle: 0
+server:
+  port: 8004

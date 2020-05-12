@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @ApiModel("请求响应参数")
-public class Result<T> {
+public class HttpResult<T> {
 
     @ApiModelProperty("状态码")
     private Integer code;

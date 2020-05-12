@@ -3,7 +3,7 @@ import	java.util.Random;
 
 import cn.yun.cloud.client.ProductService;
 import cn.yun.cloud.entity.UserDO;
-import cn.yun.cloud.http.Result;
+import cn.yun.cloud.http.HttpResult;
 import cn.yun.cloud.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -39,7 +39,7 @@ public class UserController {
 
     @GetMapping("/{id}")
     @ApiOperation("根据id查询用户信息")
-    public Result<UserDO> getUserById(@PathVariable Long id) {
+    public HttpResult<UserDO> getUserById(@PathVariable Long id) {
         UserDO userDO = userService.getById(id);
         String str = productService.noneProductCurrently();;
         try {
@@ -60,7 +60,7 @@ public class UserController {
             log.error("cannot connect the product-server... : {}", e.getMessage());
         }
 
-        return new Result<>(200, str, userDO);
+        return new HttpResult<>(200, str, userDO);
     }
 
     public String discoveryClientForRequest() {
